@@ -1,0 +1,9 @@
+:root {
+    --principal-color:#8d1c3d;
+    --principal-gold: #FAB40E;
+}
+
+
+* {
+    background-color: var(--principal-color);
+}
