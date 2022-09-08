@@ -1,9 +1,189 @@
 :root {
     --principal-color:#8d1c3d;
+    --secondary-red:#4b0a1d;
     --principal-gold: #FAB40E;
 }
 
 
 * {
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
     background-color: var(--principal-color);
+}
+
+/* html,body {
+    height: 100%;
+    overflow: hidden
+}
+
+*/
+
+
+.logo-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid green;
+}
+
+.fifa-logo {
+    width: 50%;
+}
+
+.startButton {
+    height: 8%;
+    width: 10%;
+    border-radius: 25px;
+    background-color: var(--principal-gold);
+    font-size: 80px;
+}
+
+.startButton:hover {
+    cursor: pointer;
+}
+
+.creation-tag {
+    display: none;
+    font-size: 40px;
+}
+
+/* Group stage section */
+
+.group-stage-section {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid blue;
+}
+
+.group-stage-header {
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    border: 1px solid violet;
+}
+
+
+.groups-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 15px;
+}
+
+.group-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid yellow;
+    background-color: #EDEEE4;
+    border-radius: 20px;
+}
+
+.group-container h2 {
+    color: var(--principal-color);
+}
+
+.countrys-container {
+    border-top: 1px solid var(--principal-gold);
+    color: var(--principal-color);
+}
+
+
+.country-container {
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.country-container p {
+    margin-left: 5%;
+    font-size: 60px;
+}
+
+.country-flag {
+    height: 166px;
+    width: 200px;
+    border: 1px solid var(--principal-gold);
+}
+
+
+
+.country-name {
+    font-weight: bold;
+}
+
+/* Knockout section */
+
+.knockout-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid green;
+}
+
+
+.knockout-container {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    height: inherit;
+}
+
+.avos16-container{
+    width: inherit;
+    height: 80%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.knockout-match {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.country-flag2 {
+    width: 250px;
+    height: 166px;
+}
+
+
+.avos16-container--left-site, .avos16-container--right-site {
+    display: grid;
+        justify-content: center;
+        height: 90%;
+        align-self: center;
+}
+
+.avos8--left-site, .avos8--right-site {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.avos8-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+    width: 70%;
+    height: 60%;
+}
+
+.knockout-match {
+    height: 332px;
+    background-color: grey;
 }

@@ -5,10 +5,264 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Cup Qatar 2022 Prediction App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js" defer></script>
     <script src="./script.js" defer></script>
 </head>
 <body>
-    <img src="./images/qatar-transparent-logo.png" alt="">
+    <section class="start-section">
+        <div class="logo-container">
+            <img src="./images/qatar_logo_fifa.png" class="fifa-logo" alt="">
+            <button class="startButton down-botton">Start</button>
+            <h6 class="creation-tag">Created by: <a href="">SR</a></h6>
+        </div>
+    </section>
+    <section class="group-stage-section">
+        <div class="group-stage-header">
+            <h2>GROUP STAGE</h2>
+            <p></p>
+        </div>
+        <div class="groups-container">
+            <div class="group-container">
+                <h2>Group A</h2>
+                <div class="countrys-container groupA">
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Qatar.png" alt="">
+                    <p class="country-name">Qatar</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Ecuadorpng.png" alt="">
+                    <p class="country-name">Ecuador</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Senegal.png" alt="">
+                    <p class="country-name">Senegal</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Netherlands.png" alt="">
+                    <p class="country-name">Netherlands</p>
+                </div>
+                </div>
+           </div>
+            <div class="group-container">
+                <h2>Group B</h2>
+                <div class="countrys-container groupB">
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/England.png" alt="">
+                    <p class="country-name">England</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Iran.png" alt="">
+                    <p class="country-name">Iran</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/USA.png" alt="">
+                    <p class="country-name">USA</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Wales.png" alt="">
+                    <p class="country-name">Wales</p>
+                </div>
+                </div>
+           </div>
+            <div class="group-container">
+                <h2>Group C</h2>
+                <div class="countrys-container groupC">
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Argentina.png" alt="">
+                    <p class="country-name">Argentina</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Saudi_Arabia.png" alt="">
+                    <p class="country-name">Saudi Arabia</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Mexico.png" alt="">
+                    <p class="country-name">Mexico</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Poland.png" alt="">
+                    <p class="country-name">Poland</p>
+                </div>
+                </div>
+           </div>
+            <div class="group-container">
+                <h2>Group D</h2>
+                <div class="countrys-container groupD">
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/France.png" alt="">
+                    <p class="country-name">France</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Australia.png" alt="">
+                    <p class="country-name">Australia</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Denmark.png" alt="">
+                    <p class="country-name">Denmark</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Tunisia.png" alt="">
+                    <p class="country-name">Tunisia</p>
+                </div>
+                </div>
+           </div>
+            <div class="group-container">
+                <h2>Group E</h2>
+                <div class="countrys-container groupE">
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Spain.png" alt="">
+                    <p class="country-name">Spain</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/CostaRica.svg" alt="">
+                    <p class="country-name">Costa Rica</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Germany.svg" alt="">
+                    <p class="country-name">Germany</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Tunisia.png" alt="">
+                    <p class="country-name">Tunisia</p>
+                </div>
+                </div>
+           </div>
+            <div class="group-container">
+                <h2>Group F</h2>
+                <div class="countrys-container groupF">
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Belgium.png" alt="">
+                    <p class="country-name">Belgium</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Canada.png" alt="">
+                    <p class="country-name">Canada</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Morocco.png" alt="">
+                    <p class="country-name">Morocco</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Croatia.png" alt="">
+                    <p class="country-name">Croatia</p>
+                </div>
+                </div>
+           </div>
+            <div class="group-container">
+                <h2>Group G</h2>
+                <div class="countrys-container groupG">
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Brazil.png" alt="">
+                    <p class="country-name">Brazil</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Serbia.png" alt="">
+                    <p class="country-name">Serbia</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Switzerland.png" alt="">
+                    <p class="country-name">Switzerland</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Cameroon.png" alt="">
+                    <p class="country-name">Cameroon</p>
+                </div>
+                </div>
+           </div>
+            <div class="group-container">
+                <h2>Group H</h2>
+                <div class="countrys-container groupH">
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Portugal.png" alt="">
+                    <p class="country-name">Portugal</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Ghana.png" alt="">
+                    <p class="country-name">Ghana</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Uruguay.png" alt="">
+                    <p class="country-name">Uruguay</p>
+                </div>
+                <div class="country-container">
+                    <img class="country-flag" src="./images/flags/Korea Republic.png" alt="">
+                    <p class="country-name">Korea Republic</p>
+                </div>
+                </div>
+           </div>
+        </div>
+        <button class="group-stage-button">Click</button>
+    </section>
+    <section class="knockout-section">
+        <div class="knockout-container">
+            <div class="avos16-container">
+                <div class="avos16-container--left-site">
+                    <div class="knockout-match 16-avos 1A-2B">
+                        <img src="" id="1A" alt="" class="country-flag2">
+                        <img src="" id= "2B" alt="" class="country-flag2">
+                    </div>
+                    <div class="knockout-match 16-avos 1C-2D">
+                        <img src="" id="1C" alt="" class="country-flag2">
+                        <img src="" id="2D" alt="" class="country-flag2">
+                    </div>
+                    <div class="knockout-match 16-avos 1E-2F">
+                        <img src="" id="1E" alt="" class="country-flag2">
+                        <img src="" id="2F" alt="" class="country-flag2">
+                    </div>
+                    <div class="knockout-match 16-avos 1G-2H">
+                        <img src="" id="1G" alt="" class="country-flag2">
+                        <img src="" id="2H" alt="" class="country-flag2">
+                    </div>
+                </div>
+            <div class="avos8-container">
+                <div class="avos8--left-site">
+                        <div class="knockout-match avos8--match-1">
+                            <img src="" id="" alt="" class="country-flag2">
+                            <img src="" id= "" alt="" class="country-flag2">
+                        </div>
+                        <div class="knockout-match avos8--match-2">
+                            <img src="" id="" alt="" class="country-flag2">
+                            <img src="" id= "" alt="" class="country-flag2">
+                        </div>
+                </div>
+                <div class="avos8--right-site">
+                        <div class="knockout-match avos8--match-1">
+                            <img src="" id="" alt="" class="country-flag2">
+                            <img src="" id="" alt="" class="country-flag2">
+                        </div>
+                        <div class="knockout-match avos8--match-2">
+                            <img src="" id="" alt="" class="country-flag2">
+                            <img src="" id="" alt="" class="country-flag2">
+                        </div>
+                </div>
+            </div>
+                <div class="avos16-container--right-site">
+                <div class="knockout-match 16-avos 1B-2A">
+                    <img src="" id="1B" alt="" class="country-flag2">
+                    <img src="" id="2A" alt="" class="country-flag2">
+                </div>
+                <div class="knockout-match 16-avos 1D-2C">
+                    <img src="" id="1D" alt="" class="country-flag2">
+                    <img src="" id="2C" alt="" class="country-flag2">
+                </div>
+                <div class="knockout-match 16-avos 1F-2E">
+                    <img src="" id="1F" alt="" class="country-flag2">
+                    <img src="" id="2E" alt="" class="country-flag2">
+                </div>
+                <div class="knockout-match 16-avos 1H-2G">
+                    <img src="" id="1H" alt="" class="country-flag2">
+                    <img src="" id="2G" alt="" class="country-flag2">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script2.js"></script>
 </body>
 </html>
