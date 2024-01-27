@@ -1,7 +1,6 @@
 function obtenerPaises() {
     const paises = [document.querySelectorAll('.country-flag')];
     paises.forEach(pais => {
-    console.log(pais[0].src);
     document.getElementById('1A').src = pais[0].src;
     document.getElementById('2B').src = pais[5].src;
     document.getElementById('1C').src = pais[8].src;
@@ -21,3 +20,11 @@ function obtenerPaises() {
     document.getElementById('2G').src = pais[25].src;
     });
 }
+
+
+
+function obtenerPaisesEliminacion() {
+paisesEliminacion = document.querySelectorAll('.country-flag2');
+console.log(paisesEliminacion);
+};
+

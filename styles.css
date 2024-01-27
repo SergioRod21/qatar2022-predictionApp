@@ -155,6 +155,10 @@ body {
     flex-direction: column;
 }
 
+.knockout-match:hover {
+    
+}
+
 
 .country-flag2 {
     width: 250px;
@@ -188,3 +192,25 @@ body {
     height: 332px;
     background-color: grey;
 }
+
+.final-match {
+    height: 166px;
+    background-color: grey;
+}
+
+.semis-container {
+    border: 1px solid violet;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.final-container {
+    border: 1px solid blue;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

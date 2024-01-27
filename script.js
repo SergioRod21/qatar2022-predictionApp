@@ -21,13 +21,12 @@ groupBtn.addEventListener('click', () => {
 
 groupBtn.addEventListener('click', obtenerPaises);
 
+
 grupo.forEach(grupo => {
     Sortable.create(grupo, {});
 });
 
-function ordenarPaises() {
-    
-}
+
 
 
 
